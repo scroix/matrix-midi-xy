@@ -5,7 +5,7 @@
 
 ## 🐯 Overview 
 
-Utilising the e256 variation of the [eTextile multi-touch matrix sensor](https://matrix.etextile.org/) this patch for Pure Data unpacks the blob extracted from the SLIP-OSC connection. It interpolates the XY values based on each UID (generally fingers) and outputs them across multiple MIDI CC channels.
+Extendeding the original [Pure Data patch](https://github.com/eTextile/Matrix/tree/master/Software/Puredata_SLIP-OSC) for the [eTextile multi-touch matrix sensor](https://matrix.etextile.org/) this patch both unpacks the blob extracted from the SLIP-OSC connection, and now it interpolates the XY values based on each UID (generally fingers) and outputs them across multiple MIDI CC channels.
 
 ## 🎼 Features 
 
