@@ -40,6 +40,7 @@ Once you've setup a virtual MIDI device, be sure to have it selected whenever yo
         - Update **Open** object with correct value.
 
 2. You're now ready to trigger the `ON/OFF` object to establish a connection with the e256 Matrix.
+    - ![e265-start](https://user-images.githubusercontent.com/9277107/85240851-14237080-b47d-11ea-9087-bc7319e844f4.gif)
     - The embedded _e256_SLIP-OSC_input_ sub-patch handles communication with the e256 Matrix via SLIP encoded OSC. There are 3 UI objects to adjust for **calibration**, **on/off** and **threshold** adjustment.
 
 3. The UID 0 1 2 sub-patches should light-up with data whenever the e265 is touched.
